@@ -47,6 +47,7 @@ A Postman collection is included (`vernan_contact_test.json`) with a POST reques
 `https://vernanbackend.ezlab.in/api/contact-us/`
 
 **Example Request:**
+![API Testing](ss/test_api.png)
 ```json
 {
   "name": "Test User",
@@ -54,5 +55,3 @@ A Postman collection is included (`vernan_contact_test.json`) with a POST reques
   "phone": "9876543210",
   "message": "Testing via Postman"
 }
-
-![API Testing](ss/test_api.png)
