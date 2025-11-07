@@ -25,10 +25,10 @@ npm run dev
 ## Files of interest
 - `src/App.jsx` - main app & form logic
 - `src/styles.css` - styling & responsive rules
-- `postman_collection.json` - Postman collection you can import
+- `postman_dump/vernan_contact_test.json` - Postman collection you can import
 
 ## Postman / Testing
-A Postman collection is included (`postman_collection.json`) with a POST request preconfigured to the API endpoint.
+A Postman collection is included (`vernan_contact_test.json`) with a POST request preconfigured to the API endpoint.
 
 ## Tech Stack
 - React.js (Functional Components)
