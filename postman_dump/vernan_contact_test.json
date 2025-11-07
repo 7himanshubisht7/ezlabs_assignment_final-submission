@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d7ecc41c-e378-4fe0-aee0-1f99b3e10cc7",
+		"name": "Vernan API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49879123",
+		"_collection_link": "https://himanshu-s-bisht94-1982712.postman.co/workspace/Himanshu-Bisht's-Workspace~6b6419a5-df27-4a79-84ac-ff83518915f3/collection/49879123-d7ecc41c-e378-4fe0-aee0-1f99b3e10cc7?action=share&source=collection_link&creator=49879123"
+	},
+	"item": [
+		{
+			"name": "Contact Form Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Test User\",\r\n  \"email\": \"testuser@example.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"message\": \"Testing via Postman\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
