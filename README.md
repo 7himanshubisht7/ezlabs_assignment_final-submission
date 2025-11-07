@@ -2,11 +2,16 @@
 
 This is a small React single-page application that recreates the provided design and integrates with the provided API endpoint.
 
+## 🏠 Preview
+![Home Page Screenshot](ss/web page.png)
+
 ## Features
 - Responsive layout (tested for mobile and desktop breakpoints described in task).
 - Front-end validation for empty fields and email format.
 - Submits data to `https://vernanbackend.ezlab.in/api/contact-us/` via POST.
 - Shows "Form Submitted" when API returns status 200 or OK.
+
+![Form Submitted Screenshot](ss/submitted sucess.png)
 
 ## Run locally
 Requirements: Node 18+ recommended.
@@ -49,3 +54,4 @@ A Postman collection is included (`vernan_contact_test.json`) with a POST reques
   "phone": "9876543210",
   "message": "Testing via Postman"
 }
+![API Testing](ss/test api.png)
